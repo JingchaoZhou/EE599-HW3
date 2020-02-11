@@ -5,13 +5,12 @@
 #include <string>
 #include <vector>
 
+using namespace std;
+
 class Solution {
 public:
-  std::string PrintHelloWorld();
-  int fib(int N);
+  vector<int> twoSum(vector<int>& nums, int target);
 
-private:
-  std::map<int, int> _m;
 };
 
 #endif
